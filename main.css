@@ -11,21 +11,26 @@ body > header {
 }
 
 header .container {
-    display:flex;
+    display: flex;
     align-items: center;
-    justify-content: space-between;    
+    justify-content: space-between; 
+    margin-left: 16px;   
 }
 
 header li {
     display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
 }
 
 header li a {
-    color: #f5f6fa ;
+    color: #f5f6fa;
+    text-decoration: none;
 }
 
 .container {
-    width: 1366px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -36,7 +41,10 @@ header li a {
 }
 
 .articles article img {
-    height: 180px;
+    /*height: 180px;
+    comentarios
+    */
+    width: 100%;
 }
 
 .articles article {
@@ -62,4 +70,40 @@ section h2,
     color: #fff;
     padding: 8px;
     display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#sports { 
+    background-color: rgba(0, 255, 0, 0.1);
+    }
+
+#sports .articles article a {
+    background-color: #009432;
+}
+
+#economy {
+    background-color: #f8f59f;
+}
+
+#economy .articles article a {
+    background-color: #ff9f1a;
 }

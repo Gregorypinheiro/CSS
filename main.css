@@ -112,4 +112,20 @@ img {
     height: 200px;
 }
 
-/**/
+/*inicio dos trabalhos*/
+
+#technology {
+    background-color: #e6bee7;
+}
+
+#entertainment {
+    background-color: rgba(236, 180, 180, 0.842);
+}
+
+#entertainment .articles article a {
+    background-color: #94005b;
+}
+
+#technology .articles article a {
+    background-color: #bd4dd3;
+}
